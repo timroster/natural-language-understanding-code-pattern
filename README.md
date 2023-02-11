@@ -80,6 +80,7 @@ The recommended approach is to download the credentials file and place it in the
     Example _.env_ file that configures the `apikey` and `url` for a Natural Language Understanding service instance hosted in the US East region:
 
     ```
+    NATURAL_LANGUAGE_UNDERSTANDING_AUTH_TYPE=iam
     NATURAL_LANGUAGE_UNDERSTANDING_IAM_APIKEY=X4rbi8vwZmKpXfowaS3GAsA7vdy17Qh7km5D6EzKLHL2
     NATURAL_LANGUAGE_UNDERSTANDING_URL=https://api.us-east.natural-language-understanding.watson.cloud.ibm.com/
     ```
@@ -135,7 +136,7 @@ The recommended approach is to download the credentials file and place it in the
 
 ## Deploying to OpenShift
 
-This code pattern can be deployed to any OpenShift cluster or [Minishift](https://www.okd.io/minishift) running 3.2 or above.
+This code pattern can be deployed to any OpenShift cluster running 4.8 or above.
 
 ### Creating a project
 
